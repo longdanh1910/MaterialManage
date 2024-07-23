@@ -3,7 +3,7 @@ import java.time.LocalDate;
 public abstract class Material {
     private String id;
     private String name;
-    LocalDate manufacturingDate;
+    private LocalDate manufacturingDate;
     int cost;
 
     public Material(String id, String name, LocalDate manufacturingDate, int cost) {
